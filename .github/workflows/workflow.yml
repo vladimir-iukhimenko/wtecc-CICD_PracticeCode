@@ -11,7 +11,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    container: python-3.9-slim
+    container: python:3.9-slim
     steps:  
       - name: Check-out
         uses: actions/checkout@v4
